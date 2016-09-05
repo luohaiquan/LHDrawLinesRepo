@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHDrawLines'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of LHDrawLines.'
+  s.version          = '0.1.0'
+  s.summary          = '测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+真是一个长的描述，真是一个长的描述，真是一个长的描述，真是一个长的描述，真是一个长的描述。
                        DESC
 
   s.homepage         = 'https://github.com/luohaiquan/LHDrawLinesRepo'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '罗浩' => '978948182@qq.com' }
 s.source           = { :git => 'https://github.com/luohaiquan/LHDrawLinesRepo.git', :tag => s.version.to_s }
-# s.source           = { :git => 'https://github.com/luohaiquan/LHDrawLinesRepo.git', :tag => 0.0.1 }
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
